@@ -1,0 +1,53 @@
+[19-Feb-2017 22:07:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/helloodegree/public_html/excel/book/public/index.php on line 50
+[19-Feb-2017 22:14:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/helloodegree/public_html/excel/book/public/index.php on line 50
+[19-Feb-2017 22:15:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/helloodegree/public_html/excel/book/public/index.php on line 50
+[19-Feb-2017 22:16:23 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/helloodegree/public_html/excel/book/public/index.php on line 50
+[20-Feb-2017 06:10:56 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(reader.php): failed to open stream: No such file or directory' in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php:22
+Stack trace:
+#0 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(reader....', '/home/helloodeg...', 22, Array)
+#1 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): require()
+#2 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/helloodeg...')
+#3 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/helloodeg...', Array)
+#4 /home/helloodegree/public_html/excel/book/vendor/laravel in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
+[20-Feb-2017 06:10:56 UTC] PHP Fatal error:  main(): Failed opening required 'reader.php' (include_path='.:/opt/php56/lib/php') in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
+[20-Feb-2017 06:11:49 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(reader.php): failed to open stream: No such file or directory' in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php:22
+Stack trace:
+#0 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(reader....', '/home/helloodeg...', 22, Array)
+#1 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): require()
+#2 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/helloodeg...')
+#3 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/helloodeg...', Array)
+#4 /home/helloodegree/public_html/excel/book/vendor/laravel in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
+[20-Feb-2017 06:11:49 UTC] PHP Fatal error:  main(): Failed opening required 'reader.php' (include_path='.:/opt/php56/lib/php') in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
+[20-Feb-2017 06:12:07 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(reader.php): failed to open stream: No such file or directory' in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php:22
+Stack trace:
+#0 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(reader....', '/home/helloodeg...', 22, Array)
+#1 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): require()
+#2 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/helloodeg...')
+#3 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/helloodeg...', Array)
+#4 /home/helloodegree/public_html/excel/book/vendor/laravel in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
+[20-Feb-2017 06:12:07 UTC] PHP Fatal error:  main(): Failed opening required 'reader.php' (include_path='.:/opt/php56/lib/php') in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
+[20-Feb-2017 06:14:11 UTC] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /home/helloodegree/public_html/excel/book/app/Http/routes.php on line 34
+[20-Feb-2017 06:14:32 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(reader.php): failed to open stream: No such file or directory' in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php:22
+Stack trace:
+#0 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(reader....', '/home/helloodeg...', 22, Array)
+#1 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): require()
+#2 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/helloodeg...')
+#3 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/helloodeg...', Array)
+#4 /home/helloodegree/public_html/excel/book/vendor/laravel in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
+[20-Feb-2017 06:14:32 UTC] PHP Fatal error:  main(): Failed opening required 'reader.php' (include_path='.:/opt/php56/lib/php') in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
+[20-Feb-2017 06:17:08 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(helloodegree.com/test/excelvideo/reader.php): failed to open stream: No such file or directory' in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php:22
+Stack trace:
+#0 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(hellood...', '/home/helloodeg...', 22, Array)
+#1 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): require()
+#2 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/helloodeg...')
+#3 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/helloodeg...', Array)
+#4 /home/helloodegree/publ in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
+[20-Feb-2017 06:17:08 UTC] PHP Fatal error:  main(): Failed opening required 'helloodegree.com/test/excelvideo/reader.php' (include_path='.:/opt/php56/lib/php') in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
+[20-Feb-2017 06:18:43 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(helloodegree.com/test/excelvideo/reader.php): failed to open stream: No such file or directory' in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php:22
+Stack trace:
+#0 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(hellood...', '/home/helloodeg...', 22, Array)
+#1 /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php(22): require()
+#2 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/helloodeg...')
+#3 /home/helloodegree/public_html/excel/book/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/helloodeg...', Array)
+#4 /home/helloodegree/publ in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
+[20-Feb-2017 06:18:43 UTC] PHP Fatal error:  main(): Failed opening required 'helloodegree.com/test/excelvideo/reader.php' (include_path='.:/opt/php56/lib/php') in /home/helloodegree/public_html/excel/book/storage/framework/views/144bd77d4d84bd1d10b01d48e72f1c23b4f8ed1a.php on line 22
